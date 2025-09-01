@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+<<<<<<< HEAD
+=======
+      '@vueuse/core':
+        specifier: ^13.8.0
+        version: 13.8.0(vue@3.5.20(typescript@6.0.0-dev.20250807))
+>>>>>>> 1d73865dc6a3ceff57e1eece3005bd77c4887d84
       dedent:
         specifier: ^1.6.0
         version: 1.6.0
@@ -570,6 +576,12 @@ packages:
   '@types/toastr@2.1.43':
     resolution: {integrity: sha512-sLC2fr2OXeE1iyhUixpQ64wQ2tA26awmLidn4tXTLBz4yP/VhtYUKHpmiIyDtztKkHjucdiTLH8F5uRRyhNi2Q==}
 
+<<<<<<< HEAD
+=======
+  '@types/web-bluetooth@0.0.21':
+    resolution: {integrity: sha512-oIQLCGWtcFZy2JW77j9k8nHzAOpqMHLQejDA48XXMWH6tjCQHz5RCFz1bzsmROyL6PUm+LLnUiI4BCn221inxA==}
+
+>>>>>>> 1d73865dc6a3ceff57e1eece3005bd77c4887d84
   '@types/webpack@5.28.5':
     resolution: {integrity: sha512-wR87cgvxj3p6D0Crt1r5avwqffqPXUkNlnQ1mjU93G7gCuFjufZR4I6j8cz5g1F1tTYpfOOFvly+cmIQwL9wvw==}
 
@@ -752,6 +764,22 @@ packages:
   '@vue/shared@3.5.20':
     resolution: {integrity: sha512-SoRGP596KU/ig6TfgkCMbXkr4YJ91n/QSdMuqeP5r3hVIYA3CPHUBCc7Skak0EAKV+5lL4KyIh61VA/pK1CIAA==}
 
+<<<<<<< HEAD
+=======
+  '@vueuse/core@13.8.0':
+    resolution: {integrity: sha512-rmBcgpEpxY0ZmyQQR94q1qkUcHREiLxQwNyWrtjMDipD0WTH/JBcAt0gdcn2PsH0SA76ec291cHFngmyaBhlxA==}
+    peerDependencies:
+      vue: ^3.5.0
+
+  '@vueuse/metadata@13.8.0':
+    resolution: {integrity: sha512-BYMp3Gp1kBUPv7AfQnJYP96mkX7g7cKdTIgwv/Jgd+pfQhz678naoZOAcknRtPLP4cFblDDW7rF4e3KFa+PfIA==}
+
+  '@vueuse/shared@13.8.0':
+    resolution: {integrity: sha512-x4nfM0ykW+RmNJ4/1IzZsuLuWWrNTxlTWUiehTGI54wnOxIgI9EDdu/O5S77ac6hvQ3hk2KpOVFHaM0M796Kbw==}
+    peerDependencies:
+      vue: ^3.5.0
+
+>>>>>>> 1d73865dc6a3ceff57e1eece3005bd77c4887d84
   '@webassemblyjs/ast@1.14.1':
     resolution: {integrity: sha512-nuBEDgQfm1ccRp/8bCQrx1frohyufl4JlbMMZ4P1wpeOfDhF6FQkxZJ1b/e+PLwr6X1Nhw6OLme5usuBWYBvuQ==}
 
@@ -3573,6 +3601,11 @@ snapshots:
     dependencies:
       '@types/jquery': 3.5.33
 
+<<<<<<< HEAD
+=======
+  '@types/web-bluetooth@0.0.21': {}
+
+>>>>>>> 1d73865dc6a3ceff57e1eece3005bd77c4887d84
   '@types/webpack@5.28.5(webpack-cli@6.0.1)':
     dependencies:
       '@types/node': 24.3.0
@@ -3776,6 +3809,22 @@ snapshots:
 
   '@vue/shared@3.5.20': {}
 
+<<<<<<< HEAD
+=======
+  '@vueuse/core@13.8.0(vue@3.5.20(typescript@6.0.0-dev.20250807))':
+    dependencies:
+      '@types/web-bluetooth': 0.0.21
+      '@vueuse/metadata': 13.8.0
+      '@vueuse/shared': 13.8.0(vue@3.5.20(typescript@6.0.0-dev.20250807))
+      vue: 3.5.20(typescript@6.0.0-dev.20250807)
+
+  '@vueuse/metadata@13.8.0': {}
+
+  '@vueuse/shared@13.8.0(vue@3.5.20(typescript@6.0.0-dev.20250807))':
+    dependencies:
+      vue: 3.5.20(typescript@6.0.0-dev.20250807)
+
+>>>>>>> 1d73865dc6a3ceff57e1eece3005bd77c4887d84
   '@webassemblyjs/ast@1.14.1':
     dependencies:
       '@webassemblyjs/helper-numbers': 1.13.2
