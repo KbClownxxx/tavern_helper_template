@@ -25,7 +25,11 @@ alwaysApply: true
 
 ### 可用的第三方库
 
+<<<<<<< HEAD
 项目使用 pnpm 作为包管理器, 在 `package.json` 的 `dependencies` 部分定义了可用的第三方库 (dedent、jquery、jquery-ui、lodash、pinia、toastr、yaml、vue、vue-router、zod), 你也可以自己通过 `pnpm add` 添加更多第三方库.
+=======
+项目使用 pnpm 作为包管理器, 在 `package.json` 的 `dependencies` 部分定义了可用的第三方库 (dedent、jquery、jquery-ui、lodash、pinia、toastr、yaml、vue、vue-router、@vueuse/core、zod), 你也可以自己通过 `pnpm add` 添加更多第三方库, 如添加 (@vueuse/integrations 等).
+>>>>>>> 65a420c07c0b0cf2ce20acef75d96b3c37dbb21d
 
 ### 与酒馆交互的方式
 
@@ -102,6 +106,11 @@ watch(
 );
 ```
 
+<<<<<<< HEAD
+=======
+前端界面和脚本都是 iframe, 因此你在使用 vue-router 时, 应该使用 `history: createMemoryHistory()` 来创建路由, 否则将无法正常路由.
+
+>>>>>>> 65a420c07c0b0cf2ce20acef75d96b3c37dbb21d
 #### 正确在加载、卸载前端界面或脚本时执行功能
 
 你应该总是在加载时才执行代码, 而不该直接在全局作用域中执行代码.
